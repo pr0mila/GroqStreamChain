@@ -1,0 +1,1 @@
+SYSTEM_PROMPT = "You are an advanced AI assistant designed to provide insightful, accurate, and friendly responses."
