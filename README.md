@@ -25,7 +25,15 @@ The system is organized into separate modules, each with specific responsibiliti
 
 ## How to Run the Project
 
-### 1. Install the required dependencies:
+### 1. Clone the project:
+
+First, clone the project from GitHub using the following command:
+
+```bash
+git clone https://github.com/pr0mila/GroqStreamChain.git
+```
+
+### 2. Install the required dependencies:
 
 #### Create a Conda Environment (optional but recommended)
 
@@ -46,7 +54,7 @@ Or install dependencies manually using `pip`:
 pip install fastapi uvicorn websockets python-dotenv groq langchain langchain-groq pydantic jinja2
 ```
 
-### 2. Set up environment variables:
+### 3. Set up environment variables:
 
 Create a `.env` file in the project directory and set the following variables:
 
@@ -57,7 +65,7 @@ MODEL_NAME=llama-3.1-8b-instant
 
 Make sure to replace `your_groq_api_key_here` with your actual Groq API key.
 
-### 3. Run the server:
+### 4. Run the server:
 
 ```bash
 python server.py
@@ -66,6 +74,13 @@ python server.py
 This will start the FastAPI server, and you can access the application via the browser at:
 
 [http://localhost:8000](http://localhost:8000)
+
+## Final View of the GroqStreamChain
+
+Here is the final view of the GroqStreamChain chat application:
+
+![Chat App Final View](static/groqstreamchain.png)
+
 
 ## Running the Test Script (`test_groq.py`)
 
