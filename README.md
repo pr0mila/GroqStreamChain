@@ -115,11 +115,6 @@ To test if the Groq API is working properly, you can run the test script `test_g
 - **Minimal Processing**: The server-side processing is kept to a minimum, relying on the Groq client to handle the bulk of the work.
 - **Efficient Message Handling**: Direct interaction with the Groq client ensures efficient token streaming
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
- for real-time communication.
-
 ## Blog Post
 
 For a detailed explanation and walkthrough of the project, check out the blog post on Medium:
