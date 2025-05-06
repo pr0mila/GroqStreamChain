@@ -86,7 +86,7 @@ This will start the FastAPI server, and you can access the application via the b
 
 Here is the final view of the GroqStreamChain chat application:
 
-![Chat App Final View](static/groqstreamchain.png)
+![Chat App Final View](static/groqstreamchain.gif)
 
 
 ## Running the Test Script (`test_groq.py`)
