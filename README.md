@@ -10,7 +10,10 @@
 
 ## Overview
 
-GroqStreamChain is a real-time, AI-powered chat application that uses WebSocket for low-latency communication and streams responses from a language model (LLM) powered by Groq and LangChain. The system is designed to provide a seamless conversational experience with real-time feedback and response streaming.
+**GroqStreamChain** is a real-time, AI-powered chat application that uses WebSocket for low-latency communication and streams responses from a language model (LLM) powered by Groq and LangChain. The system is designed to provide a seamless conversational experience with real-time feedback and response streaming.
+Here is the final view of the **GroqStreamChain** chat application:
+
+![Chat App Final View](static/groqstreamchain.gif)
 
 ## Project Structure
 
@@ -82,11 +85,7 @@ This will start the FastAPI server, and you can access the application via the b
 
 [http://localhost:8000](http://localhost:8000)
 
-## Final View of the GroqStreamChain
 
-Here is the final view of the GroqStreamChain chat application:
-
-![Chat App Final View](static/groqstreamchain.gif)
 
 
 ## Running the Test Script (`test_groq.py`)
